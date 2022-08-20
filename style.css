@@ -1,0 +1,221 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+body{
+   
+    background-color: rgb(212, 212, 212);
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 130px;
+    background-color:#0d305c ;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.487);
+}
+
+.metade1 {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    
+}
+
+.metade2 {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+#nome1 {
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-size: 4.5em;
+    text-transform: uppercase;
+    margin: 10px 10px 10px 10px;
+    
+}
+
+.metade2 ul{
+    list-style: none;
+
+}
+
+.metade2 li {
+    position: relative;
+    display: inline-block;
+    margin: 55px 15px 55px 15px;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    transition: color 1s;
+    text-decoration: none;
+    
+}
+
+.metade2 li:hover{
+    color: #207AE8;
+    
+    
+}
+
+
+#iniciomain{
+    display: flex;
+}
+
+#metademain1 {
+    display: flex;
+    width: 50%;
+}
+
+#metademain2 {
+    display: flex;
+    width: 50%;
+}
+
+@keyframes float{
+    0%{transform: translateY(0px);}
+    100%{transform: translateY(10px);}
+
+}
+
+#img-deputado {
+    margin: auto;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.483);
+    animation-name: float;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+
+    
+}
+
+.itens > h1 {
+    font-size: 3em;
+    height: 80px;
+    color: #0d305c;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.531);
+}
+
+.itens > p {
+    font-size: 1.5em;
+    height: 100px;
+
+}
+
+
+
+.itens {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 800px;
+    margin: 0 auto 0 auto;
+    height: 1000px;
+}
+
+
+.icone {
+    display: block;
+    width: 90px;
+    height: 90px;
+    margin: 100px auto 20px auto;
+}
+
+#hospital{
+    display: flex;
+    margin: auto;
+    width: 300px;
+    height: 225px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.349);
+    background-image: url(img/hospital.jpg);
+    background-size: cover;
+    justify-content: center;
+}
+
+@keyframes float-text{
+    0%{transform: translateY(0px);}
+    100%{transform: translateY(-10px);}
+}
+
+
+#text-projeto {
+    font-size: 20px;
+    margin: 200px 0 0px 0;
+    color: white;
+    text-shadow: 2px 2px 0 black;
+    animation-name: float-text;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+
+    
+}
+
+#projeto{
+    margin-top: 0;
+}
+
+#contato {
+    margin: 1000px auto auto auto;
+}
+
+#text-wpp {
+    height: 30px;
+}
+
+#img-wpp {
+    width: 100px;
+    height: 100px;
+}
+
+#img-email{
+    width: 100px;
+    height: 100px;
+}
+
+#email {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.img-sociais{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
+h6 {
+
+    text-align: center;
+    height: 50px;
+}
+
+h6 > a{
+    text-decoration: none;
+    color: #0d305c;
+}
+
+
+
+
+
+
+
+
+
+
+
